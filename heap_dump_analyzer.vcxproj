@@ -78,6 +78,11 @@
   <ItemGroup>
     <ClCompile Include="heap_dump_analyzer.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dump_defs.h" />
+    <ClInclude Include="read_utils.h" />
+    <ClInclude Include="type_defs.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
